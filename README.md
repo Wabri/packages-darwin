@@ -14,6 +14,12 @@ MacOS (Darwin) is the repository of package files for the new YAPI cross-platfor
 ## Packages
 The packages supported include:
 <!--readme_update start -->
+- Dropbox - Dropbox desktop application - https://discordapp.com/
+- Googlechrome - Google Chrome Browser - https://www.google.com/chrome/
+- Macports - Install macports from source on github - https://www.macports.org/index.php
+- Wireshark - Wireshark network monitor - https://www.wireshark.org/
+- Homebrew - Install homebrew on MacOS - https://brew.sh/
+- Discord - Discord chat vocale e testuale - https://discordapp.com/
 <!--readme_update end -->
 
 ## How to add new script
