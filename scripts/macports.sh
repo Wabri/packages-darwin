@@ -1,4 +1,4 @@
-#Install macports from source on github - https://www.macports.org/index.php
+# Install macports from source on github - https://www.macports.org/index.php
 sudo mkdir -p /opt/mports
 cd /opt/mports
 git clone https://github.com/macports/macports-base.git
