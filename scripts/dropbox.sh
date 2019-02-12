@@ -1,4 +1,4 @@
-# Dropbox desktop application - https://discordapp.com/
+# Dropbox desktop application - https://discordapp.com/ - files
 wget -O dropbox.dmg https://www.dropbox.com/download?os=mac
 hdiutil mount dropbox.dmg
 cd "/Volumes/Dropbox Installer"

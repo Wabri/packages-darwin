@@ -1,4 +1,4 @@
-# Wireshark network monitor - https://www.wireshark.org/
+# Wireshark network monitor - https://www.wireshark.org/ - network
 wget -O wireshark.dmg https://2.na.dl.wireshark.org/osx/Wireshark%202.6.6%20Intel%2064.dmg
 hdiutil mount wireshark.dmg
 cd /Volumes/Wireshark

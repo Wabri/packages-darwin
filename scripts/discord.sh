@@ -1,4 +1,4 @@
-# Discord chat vocale e testuale - https://discordapp.com/
+# Discord chat vocale e testuale - https://discordapp.com/ - chat
 wget -O discord.dmg https://discordapp.com/api/download?platform=osx
 hdiutil mount discord.dmg
 cd /Volumes/Discord
