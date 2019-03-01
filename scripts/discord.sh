@@ -1,8 +1,8 @@
 # Discord chat vocale e testuale - https://discordapp.com/ - chat
-wget -O discord.dmg https://discordapp.com/api/download?platform=osx
+curl https://discordapp.com/api/download?platform=osx -o discord.dmg
 hdiutil mount discord.dmg
 cd /Volumes/Discord
-sudo cp -R Discord.app /Applications/Discord.app/
+sudo cp -r Discord.app /Applications/Discord.app/
 hdiutil unmount /Volumes/Discord
 cd ~/YAPI
 rm scripts/discord.dmg
