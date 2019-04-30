@@ -1,0 +1,18 @@
+[DEFAULT]
+name = discord
+description = Discord chat, voice, and video
+url = https://discordapp.com/
+class = chat
+
+[Common]
+dekstop_entry = ignore
+installed = ignore
+cache = ignore
+
+[Script]
+download = curl https://discordapp.com/api/download?platform=osx -o discord.dmg
+before_install = hdiutil mount discord.dmg && cd /Volumes/Discord
+install = sudo cp -r Discord.app /Applications/Discord.app/
+after_install = hdiutil unmount /Volumes/Discord && cd ~/YAPI && rm scripts/discord.dmg
+uninstall = sudo rm /Applications/Discord.app
+desktop_entry = echo "Shortcut is in launchpad"
